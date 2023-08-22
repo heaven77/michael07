@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Background</title>
+    <link rel="stylesheet" href="bio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="bio.html">Bio</a>
+      <a href="#contact">Music</a>
+      <a href="#about">Photos</a>
+      <a href="#about">Videos</a>
+      <a href="#about">Photos</a>
+      <a href="#about">Song List</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <section>
+      <video src="video1.mp4" autoplay="" loop=""></video>
+    </section>
+    <section>
+      <div class="content">
+        <h2>Michael Stolar</h2>
+        <br />
+        <br />
+        <p>
+          ARITST - SONGWRITER - ARRANGER - PRODUCER <br />
+          <br />
+          Michael Stolar is a 21-year-old independent music artist originally
+          from Cleveland, Ohio. He studied Commercial Voice and Songwriting at
+          Belmont University in Nashville. Michael is currently releasing his
+          first ever EP, which he cannot wait to share with the world! Michael
+          has been performing for as long as anyone can remember, and he has
+          been writing music since the age of 10. His main influences growing up
+          were the likes of Sara Bareilles, Taylor Swift, and Christina Perri,
+          all of whom inspired his singer-songwriter style. His production
+          sound, on the other hand, is more similar to Lorde, Sigrid, MUNA, and
+          Blake Rose, making his sound an original blend of Singer-Songwriter
+          and Electropop. The main thing that sets Michael apart from other
+          artists is his performance ability: When he gets on stage, all eyes go
+          to his mesmerizing stage presence and energy! He is a very seasoned
+          performer and loves to sing and arrange a cappella in his free time.
+          With the COVID-19 Pandemic, Michael's future plans made an abrupt
+          change when he decided to leave school, move to New York City, and
+          pursue his music career full time. He has performed at multiple venues
+          in the past two years traveling through multiple different cities!
+          With all the new project's Michael is working on, 2023 is surely going
+          to be a journey you'll want to follow! Interesting in learning more?
+          You can email him at michaelstolarmusic@gmail.com<br />
+          <br />
+          <br />
+          <i
+            >Hi!!! OMG can y'all hear me?? I'm Michael and I'm so grateful
+            you've taken the time to check out my lil website :) I have so much
+            planned and I cannot wait to share all the thoughts and songs in my
+            brain with the WORLD! Like literally so insane how this is my life
+            idk what's going on to be so frank and honest. If you are interested
+            in collaborating or reaching out, my instagram is @michaelstolar
+            (suuuups easy right?). Thank you for your support bae and I hope you
+            enjoy the ride
+          </i>
+          <br />
+          <br />
+        </p>
+      </div>
+    </section>
+    <script type="text/javascript">
+      let video = document.querySelector("video");
+      window.addEventListener("scroll", function () {
+        let value = 1 + window.scrollY / -600;
+        video.style.opacity = value;
+      });
+    </script>
+  </body>
+</html>
